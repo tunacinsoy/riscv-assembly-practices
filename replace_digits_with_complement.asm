@@ -36,7 +36,7 @@ main:
 	lbu t3, (t2) # t3 contains the current character in the string
 	beqz t3, display_output # If the current char is the end of the line char, jump out of the loop
 	blt t3, t0, not_digit # If character < '0', jump to not_digit
-	bgt t3, t1, not_digit # If character < '0', jump to not_digit
+	bgt t3, t1, not_digit # If character > '9', jump to not_digit
 	
 	# At this point, we know that t3 register contains a digit character
 	sub t3, t1, t3 # Subtract the digit from '9', and put the result in t3 register
