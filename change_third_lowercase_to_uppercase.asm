@@ -1,7 +1,7 @@
 #------------------------------------------------------------------------------------------------------------------
 # author       : Tuna Cinsoy
 # date         : 2023.03.24
-# description  : RISC-V - Remove characters preceded by digits: ìabc5f67ghî ? ìabc56hî
+# description  : RISC-V - Change every 3rd lowercase letter to uppercase: ‚Äúab1cde2f3gh4ij‚Äù ‚Üí ‚Äúab1Cde2Fgh4Ij‚Äù
 #------------------------------------------------------------------------------------------------------------------
 
 	.data
